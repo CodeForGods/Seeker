@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-02-11T13:38:56.530Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.20" etag="7FLGZSokhHKlR5Na1Qyc" type="github"><diagram name="Page-1" id="Tiwd6nYyi33MOcMwZMPV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-11T13:46:35.524Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="B-n9mFguTSrneEfpxwoJ" version="20.8.20" type="github">
+  <diagram name="Page-1" id="Tiwd6nYyi33MOcMwZMPV">
+    <mxGraphModel dx="1434" dy="1881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ExhX0TZIlyC5HLKpBSMv-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ExhX0TZIlyC5HLKpBSMv-1" target="ExhX0TZIlyC5HLKpBSMv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExhX0TZIlyC5HLKpBSMv-1" value="Seeker Architecture / High Level Design&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="90" y="140" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ExhX0TZIlyC5HLKpBSMv-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ExhX0TZIlyC5HLKpBSMv-2" target="ExhX0TZIlyC5HLKpBSMv-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExhX0TZIlyC5HLKpBSMv-2" value="Telegram Channel Seeker&amp;nbsp;&lt;br&gt;Containing the JOB.&amp;nbsp;&lt;br&gt;1.&amp;nbsp; Genuine Jobs Should be there.&lt;br&gt;2. Telegram Bot to suggest jobs against keywords.&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="580" y="140" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ExhX0TZIlyC5HLKpBSMv-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ExhX0TZIlyC5HLKpBSMv-6" target="ExhX0TZIlyC5HLKpBSMv-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ExhX0TZIlyC5HLKpBSMv-6" value="Cron Job that runs and Find jobs Over Multiple websites and insert it into the database&lt;br&gt;Can also add Jobs directly into Database.&lt;br&gt;&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="-410" width="235" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="ExhX0TZIlyC5HLKpBSMv-8" value="INPUT&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ExhX0TZIlyC5HLKpBSMv-9" value="Website Containing all the Jobs , Along with Ads,&amp;nbsp;&lt;br&gt;2 sources from where users will come.&amp;nbsp;&lt;br&gt;1. Telegram&amp;nbsp;&lt;br&gt;2. Website Directly&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="872.5" y="-132.5" width="437.5" height="192.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ExhX0TZIlyC5HLKpBSMv-11" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ExhX0TZIlyC5HLKpBSMv-2" target="ExhX0TZIlyC5HLKpBSMv-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="60" as="sourcePoint" />
+            <mxPoint x="800" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ExhX0TZIlyC5HLKpBSMv-12" value="In order to Look more into the Jobs,&lt;br&gt;&amp;nbsp;Users will be redirected to websites.&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="925" y="195" width="220" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
